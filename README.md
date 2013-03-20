@@ -3,7 +3,7 @@
 sublime-multi-number-input is plugin for sublime text.
 This plugin make you input increment number for multi cursor.
 
-* How to use
+# How to use
 
 ## Installation
 
