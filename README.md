@@ -1,7 +1,7 @@
 # sublime-multi-number-input
 
 sublime-multi-number-input is plugin for sublime text.
-This plugin make you input increment number for multi cursor.
+This plugin provides a feature to input incremental/decremental numbers for multi cursor.
 
 # How to use
 
@@ -9,27 +9,30 @@ This plugin make you input increment number for multi cursor.
 
 To install manually in a shell/Terminal (on OS X, Linux or Cygwin), via git:
 
-    cd ~/"Library/Application Support/Sublime Text 2/Packages/" # location on OS X; will be different on Linux & Windows
-    git clone https://github.com/ryooo321/sublime-multi-number-input.git
+    cd ~/"/Sublime Text 3/Data/Packages/User/" # location on Windows; will be different on Linux & MacOS
+    git clone https://github.com/aurosB/sublime-multi-number-input.git
 
 or, if you don't have git installed:
 
-    cd ~/"Library/Application Support/Sublime Text 2/Packages/"
-    rm -rf ryooo321-sublime-multi-number-input*  # remove any old versions
-    curl -L https://github.com/ryooo321/sublime-multi-number-input/tarball/master | tar xf -
+    cd ~/"/Sublime Text 3/Data/Packages/User/"
+    rm -rf airosB-sublime-multi-number-input*  # remove any old versions
+    curl -L https://github.com/airosB/sublime-multi-number-input/tarball/master | tar xf -
 
-The plugin should be picked up automatically. If not, restart Sublime Text.
+The plugin should be picked up automatically. If not, restart Sublime Text 3.
 
 ## Usage
     Set keymap on your setting.
       { "keys": ["super+ctrl+1"], "command": "multi_number_input"}
 
-    Input initial number on input field.
-    You can use "by" option for increment.
+    Input initial number on input field and press Enter. Empty input will be taken as "1".
+    You can use whitespaces for separate args: ''Initial Digits Step''
+
+    ex) 2 5 3 -> 00002, 00005, 00008, 00011,...
+    ex) 0  -3 -> 0, -3, -6, -9, ...
 
 
 ## Contributing to rack-override-user-agent
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.
