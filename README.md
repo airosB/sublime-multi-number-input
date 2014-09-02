@@ -10,7 +10,7 @@ This plugin provides a feature to input incremental/decremental numbers for mult
 To install manually in a shell/Terminal (on OS X, Linux or Cygwin), via git:
 
     cd ~/"/Sublime Text 3/Data/Packages/User/" # location on Windows; will be different on Linux & MacOS
-    git clone https://github.com/aurosB/sublime-multi-number-input.git
+    git clone https://github.com/airosB/sublime-multi-number-input.git
 
 or, if you don't have git installed:
 
