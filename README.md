@@ -28,15 +28,16 @@ Or you can install this manually.
 
 ## Usage
 Set keymap on your setting.
-  { "keys": ["super+ctrl+1"], "command": "multi_number_input"}
+`{ "keys": ["super+ctrl+1"], "command": "multi_number_input"}`
 
-+ An input field will apper.
-+ Set initial number on the field and press enter.
-+ Empty input means "1".
-+ Option usege: [initial number] [digits] [step]
+1. An input field will apper.
+1. Set initial number on the field and press enter.
+1. Empty input means "1".
+1. Option usege: [initial number] [digits] [step]
 
-ex) 2 5 3 -> 00002, 00005, 00008, 00011,...
-ex) 0  -3 -> 0, -3, -6, -9, ...
+` 2 5 3`  -> 00002, 00005, 00008, 00011,...
+
+` 0  -3`  -> 0, -3, -6, -9, ...
 
 
 ## Copyright
